@@ -1,0 +1,263 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: AvenirNextLTPro-Regular;
+  src: url(./futura/AvenirNextLTPro-Regular.otf);
+}
+@font-face {
+  font-family: AvenirNextLTPro-lt;
+  src: url(./futura/AvenirNextLTPro-It.otf);
+}
+@font-face {
+  font-family: Futura medium;
+  src: url(futura/futura\ medium\ bt\ font.ttf);
+}
+@font-face {
+  font-family: Futura Heavy;
+  src: url(./futura/Futura\ Heavy\ font.ttf);
+}
+.billboard .navbar-brand img {
+  width: 150px;
+  margin-top: 5px;
+  padding-left: 40px;
+}
+.billboard .navbar-brand .nav-item a {
+  color: black;
+}
+.billboard .links {
+  margin-right: 100px;
+}
+.billboard .links a {
+  color: black;
+  padding: 50px;
+  text-decoration: none;
+  font-family: Futura Heavy;
+}
+.billboard .billboard-info1 {
+  padding-top: 5%;
+}
+.billboard .billboard-info1 img {
+  margin-left: -10%;
+}
+.billboard .billboard-info1 .billboard-info {
+  margin-left: 12%;
+  padding-top: 15%;
+}
+.billboard .billboard-info1 .billboard-info h1 {
+  font-family: Futura Heavy;
+  font-size: 70px;
+}
+.billboard .billboard-info1 .billboard-info p {
+  padding-top: 5%;
+  font-family: AvenirNextLTPro-Regular;
+  font-size: 25px;
+}
+.billboard .billboard-info1 .billboard-info .btn-1 {
+  padding: 12px;
+  border: none;
+  background-color: rgb(0, 137, 186);
+  color: white;
+  font-family: Futura Heavy;
+}
+.billboard .billboard-info1 .billboard-info .links2 {
+  margin-top: 25%;
+}
+.billboard .billboard-info1 .billboard-info .links2 a {
+  color: black;
+  padding: 50px;
+  text-decoration: underline;
+  font-family: Futura Heavy;
+  padding-left: 1%;
+}
+.billboard .section2b {
+  margin-right: -18%;
+}
+.billboard .section2b img {
+  margin-top: 70px;
+}
+
+.about-me {
+  padding-top: 2%;
+  margin-top: 10%;
+}
+.about-me .para {
+  font-family: AvenirNextLTPro-Regular;
+  font-size: 20px;
+}
+.about-me .para h3 {
+  text-align: center;
+  font-size: 30px;
+}
+.about-me .para h2 {
+  font-size: 50px;
+}
+.about-me .para .iconz {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.work {
+  margin-top: 10%;
+  transition: transform 0.2s ease 0s;
+}
+.work h2 {
+  font-size: 50px;
+  font-family: AvenirNextLTPro-Regular;
+  text-align: center;
+}
+.work .workbtn {
+  background-color: rgb(0, 137, 186);
+  padding: 12px;
+  border-radius: 1px;
+  font-family: Futura Heavy;
+  color: white;
+  border: none;
+  margin-left: 45%;
+}
+.work .post4 {
+  margin-left: 35%;
+}
+.work .post4 .post5 {
+  padding-right: 10%;
+}
+
+.contactsection {
+  padding-top: 5%;
+}
+.contactsection .sectionheading h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: AvenirNextLTPro-Regular;
+}
+.contactsection .sectionheading p {
+  text-align: center;
+  font-family: AvenirNextLTPro-Regular;
+}
+.contactsection .container1 {
+  padding-top: 2%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactsection .container1 .contact-box {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+.contactsection .container1 .left {
+  background: url("./images/map.png") no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+.contactsection .container1 .right {
+  padding: 25px 40px;
+}
+.contactsection .container1 h2 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+  font-family: AvenirNextLTPro-Regular;
+}
+.contactsection .container1 h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: white;
+}
+.contactsection .container1 .field {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+}
+.contactsection .container1 .field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.contactsection .container1 textarea {
+  min-height: 150px;
+}
+.contactsection .container1 .btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: rgb(0, 137, 186);
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.contactsection .container1 .btn:hover {
+  background-color: rgba(30, 85, 250, 0.47);
+}
+.contactsection .container1 .field:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+
+.footer {
+  background-color: rgb(0, 137, 186);
+  padding: 15px 0;
+  margin-top: 5%;
+}
+.footer .list {
+  padding-top: 5%;
+}
+.footer .list1 h4 {
+  color: white;
+  font-family: AvenirNextLTPro-Regular;
+}
+.footer .list1 p {
+  color: white;
+  font-family: AvenirNextLTPro-Regular;
+}
+.footer .list2 h4 {
+  color: white;
+  font-family: AvenirNextLTPro-Regular;
+}
+.footer .list2 p {
+  color: white;
+  font-family: AvenirNextLTPro-Regular;
+}
+.footer .list3 h4 {
+  color: white;
+  font-family: AvenirNextLTPro-Regular;
+}
+.footer .list3 .footer-icons {
+  padding-top: 4%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -20%;
+}
+.footer .hrline {
+  border: 1px solid;
+  color: white;
+}
+.footer .copywrite {
+  text-align: center;
+}
+.footer .copywrite p {
+  font-family: AvenirNextLTPro-Regular;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
